@@ -6,6 +6,9 @@ public class Question_4 {
             for(int j = 1; j <= 9; j++){
                 System.out.println(i + " x " + j + " = " + i * j);
             }
+            System.out.println("                               ");
+            System.out.println(i + "단 입니다.");
+            System.out.println("===============================");
         }
     }
 }

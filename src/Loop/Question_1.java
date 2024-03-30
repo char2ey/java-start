@@ -2,27 +2,22 @@ package Loop;
 
 public class Question_1 {
     public static void main(String[] args) {
-        int count = 0;
-
-        forLoop(count);
-
-        whileLoop(count);
+        forLoop();
+        whileLoop();
     }
 
-    public static void forLoop(int count) {
-        for(int i = 1; i <= 10; i++){
-            count = i;
+    public static void forLoop() {
+        for(int count = 1; count <= 10; count++){
             System.out.println("For Loop : " + count);
         }
     }
 
-    public static void whileLoop(int count) {
-        int i = 1;
+    public static void whileLoop() {
+        int count = 1;
 
-        while(i <= 10){
-            count = i;
+        while(count <= 10){
             System.out.println("While Loop : " + count);
-            i++;
+            count++;
         }
     }
 }
